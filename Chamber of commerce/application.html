@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Mai Manago">
+        <meta name="description" content="Chamber of Commerce Koga Application form page">
+        <link rel="shortcuticon" href="images/cckoga.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+        <title> </title>
+    </head>
+    <body>
+
+        <header>
+            <div class="organization">
+                <a href="index.html"><img src="images/logo.200.png" alt="cckoga logo"></a>
+            <p>Chamber of Commerce Koga</p>
+        </div>
+        
+        <nav>
+            <div class="ham">
+            <ul class="menu">
+                <li><a class="drop">&#9776;</a></li>
+           
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">Koga</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="application.html"  class="active">Join</a></li>
+                <li><a href="directory.html">Direcotry</a></li>
+            </ul>
+        </div>
+               <a href="application.html" class="cta join">Join Us</a>
+        </nav>
+    </header>
+    
+        <main>
+            <nav>
+
+            </nav>
+        <h1>Join Us</h1>
+        <p>Please fill out the form to apply to the CCKoga.</p>
+        <form method="GET" action="welcome.html">
+            <fieldset  class="contact2"> 
+                <div class="new">
+                    <p class="reference"><span class="required">*</span>indicates required</p>
+                <h2>New Membership</h2>
+                    <p>Select the type of membership.<span class="required">*</span></p>
+                </div>  
+                            
+                    <div class="selection">
+                    <div class="membership">
+                    <ul class="level">
+                        <li>
+                            <label><input type="radio" name="level" value="free"> Non-profit</label> 
+                        </li>
+                    <li class="price"> ¥10990 ($100) / year</li>
+                </ul>
+                    <ul class="service">
+                        <li>Business Training</li>
+                        <li>Rooms for Rent</li>
+                    </ul>               
+                </div> 
+                <div class="membership">
+                    <ul class="level">
+                        <li>
+                            <label><input type="radio" name="level" value="bronze"> Bronze</label>
+                        </li>
+                        <li class="price">¥21990 ($200) / year</li>
+                    </ul>  
+                       <ul class="service">
+                            <li>Business Training</li>
+                            <li>Rooms for Rent</li>
+                            <li>Technology Support</li>
+                        </ul>  
+                </div>
+                <div class="membership">
+                    <ul class="level">
+                        <li>
+                    <label><input type="radio" name="level" value="silver"> Silver </label> 
+                        </li>
+                            <li class="price">¥43990 ($400) / year</li>
+                        </ul> 
+                        <ul  class="service"> 
+                            <li>Business Training</li>
+                            <li>Rooms for Rent</li>
+                            <li>Technology Support</li>
+                            <li>30% Discount Dispatch of Experts</li>
+                        </ul>
+                </div>
+                <div class="membership">
+                    <ul class="level">
+                        <li>
+                    <label><input type="radio" name="level" value="gold"> Gold</label>
+                    </li>
+                    <li class="price">¥109990 ($1000) / year</li> 
+                    </ul>
+                    <ul  class="service">
+                        <li>Business Training</li>
+                        <li>Rooms for Rent</li>
+                        <li>Technology Support</li>
+                        <li> 50% Discount Dispatch of Experts</li>
+                        <li>Regular Medical Checkup</li>
+                        <li>Listed in the Top Directory</li>
+                    </ul> 
+                </div>
+            </div>
+            </fieldset>
+
+            <fieldset class="contact2">
+                <div class="dimention">
+                <div class="back2">
+                <ul class="contactform">
+                <li>
+            <h2>Personal Information</h2>
+                </li>
+             
+                <li>
+            <label for="firstname"> First name <span class="required">*</span>
+                <input type="text" id="firstname" name="firstname" required minlength="2" pattern="[A-Za-z]">
+                </label>
+                </li>
+                <li>
+            <label for="lastname"> Last name <span class="required">*</span>
+                <input type="text" id="lastname" name="lastname" required minlength="3" pattern="[A-Za-z]">
+                </label>
+                </li>
+                <li>
+                <label for="title">Job Title
+                    <input type="text" id="title" name="title" minlength="5" pattern="[A-Za-z]">
+                    </label>
+                </li>
+                <li>
+                <label for="email">Email
+                    <input type="email" id="email" name="email" required placeholder="example@email.com">
+                    </label>
+                    </li>
+                    <li>
+                <label for="tel">Phone number <span class="required">*</span>
+                    <input type="tel" id="tel" name="tel" pattern="[0-9]">        
+                    </label>
+                    </li>
+            </ul>
+        </div>
+            <div class="back2">
+                <ul class="contactform">
+                    <li><h2>Business Information</h2></li>
+                    <li>
+                        <label for="businesstname"> Bussiness name <span class="required">*</span>
+                            <input type="text" id="businesstname" name="businesstname" required minlength="2" pattern="[A-Za-z]">
+                            </label>
+                        </li>
+                        <li>
+                        <label for="businesswebsite"> Bussiness website
+                            <input type="url" id="businesswebsite" name="businesswebsite" minlength="10" placeholder="https://example.com" pattern="https://.*">
+                            </label>
+                        </li>
+                        <li>               
+                        <label for="description"> Bussiness description
+                            <input type="text" id="description" name="description" minlength="4" pattern="[A-Za-z]">
+                            </label>
+                        </li>   
+                        <li>        
+                            <label for="address"> Bussiness address 
+                                <input type="text" id="address" name="address" minlength="10" pattern="[A-Za-z]">
+                            </label>
+                            </li> 
+                            </ul>
+                                <label>
+                                    <input type="submit" name="submit" value="Send form" class="bt">
+                                </label>        
+                            
+                
+            </div>
+        </div>
+            </fieldset>
+  
+            
+           
+            
+            
+                    
+            </form>
+                    
+        </main>
+
+    <footer>
+        <div class="contactinfo">
+        <div>
+        <h3>CCKoga</h3>
+        <p>info@cckoga.org</p>
+        <p>092 - xxx - xxxxx</p>
+
+        <div  class="address">
+        <p class="postcode">811-3101</p>
+        <p> Tenjin x-x-x, Koga-shi, Fukuoka, Japan</p>
+        </div>
+    </div>
+
+        <div class="sns">
+            <a href="https://www.instagram.com/"><img src="images/instagram.jpg" alt="instagram icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="images/facebook.jpg"></a>
+        </div>
+        
+        </div>
+    <div class="bar">
+        <p>&copy;&nbsp;<span id="year"></span> CCKoga All rights are reserved.<p>
+        <p> Brigham Young University Idaho | Spring 2021 | WDD230 Mai Manago</p>
+        <p><a href="https://openweathermap.org">OpenWeatherMap</a> | <a href="https://icons8.com/icon/82758/list">Icons8</a></p>
+        <p> <span id="update"></span></p>
+    </div>
+    </footer>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({
+        google: {families: [ 'Mulish', 'Sarabun', 'Poppins']}
+    });
+    </script>
+</body>
+    </html>

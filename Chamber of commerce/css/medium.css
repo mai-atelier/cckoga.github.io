@@ -1,0 +1,253 @@
+@media only screen and (min-width: 35rem){
+    
+    header {
+        display: flex;
+        flex: 1 1 auto;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        float: right;
+    }
+
+    .menu {
+        display: flex;
+        flex: 1 1 auto;
+    }
+    
+    .menu li {
+        display: block;
+        
+    }
+
+    .menu li a {
+        padding: .75em 1em;
+    }
+    
+    .menu li:first-child{
+        display: none;
+    }
+
+    .responsive li+li {
+        margin: .38em;
+    }
+
+.weathercast {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+}
+
+    .current {
+        grid-column: 1/2;
+        padding: 1em 0;
+        background: #ECF6FD;
+    }
+
+    .overlay {
+        border: 1px solid #ffffff;
+        background: rgba( 255, 255, 255, 0.6);
+        padding: 0 1em;
+        box-shadow: 2px 6px 6px #ECF6FD;
+    }
+
+    .weathericon img{
+        width: 100px;
+    }
+
+    .current p {
+        margin: .75em;
+    }
+
+    .forecast {
+        padding: 2em 0;
+        grid-column: 2/3;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        border: solid 2px #ECF6FD;
+    }
+
+    .days {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 2em;
+    }
+
+    .dayname {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dayname p {
+        padding: 0;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr;
+        grid-gap: 2em;
+    }
+
+    .dailyweather  {
+        flex-direction: column;
+    }
+
+    .dailyweather:first-child {
+        grid-column: 1/2;
+    }
+
+    .dailyweather:nth-child(2) {
+        grid-column: 2/3;
+    }
+    
+    .dailyweather:last-child {
+        grid-column: 3/4;
+    }
+    
+    .dailyweather p{
+        margin: 0;
+    }
+
+    .dailyweather img{
+        width: 80px;
+    }
+
+
+.about {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .access {
+        display: flex;
+        grid-gap: 1.75em;
+        flex-wrap: nowwrap;
+    }
+
+    .bannerads img{
+        max-width: 100%;
+        margin: 4em 1em;
+        }
+        
+        .business {
+            flex: 1;
+        }
+
+    .board {
+        display:flex;
+        justify-content: space-between;
+    }
+
+.view {
+    display: flex;
+    grid-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+    .cardview {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardview img{
+        display: block;
+    }
+
+    .listview {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .listview img{
+        display: block;
+    }
+    
+    .activate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        width: 30px;
+        height: 30px;
+    }
+
+    .item {
+        flex-direction: row;
+        grid-gap: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .companylogo {
+        grid-column: 1/2;
+        flex: 1;
+    }
+
+    .business p:nth-child(3){
+        padding: .5em 0;
+    }
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cards .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        grid-gap: 1em;
+        align-items: center;
+    }
+
+    .cards .companylogo {
+        flex: 2;
+    }
+    
+    .cards .business {
+        flex: 1;
+    }
+
+.contactinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    
+    .sns {
+       padding: 1em;
+    }
+
+.membership {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.level {
+    grid-column: 1/2;
+    padding: 1em;
+  }
+
+form fieldset {
+    display: flex;
+    justify-content: space-around;
+}
+
+.back2 {
+    padding: 2em 8em;
+}
+}

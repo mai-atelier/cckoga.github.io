@@ -1,0 +1,89 @@
+{
+    "directory" : [
+    {
+    "name" : "Global Materials Engineering Co., Ltd.",
+    "industry" : "Powder Process Industry, Engineering",
+    "phone" : "81-92-943-3337",
+    "weburl" : "https://www.gmec.co.jp/en/",
+    "imgurl" : "images/gmec.png"
+    },
+    {
+    "name" : "Seibu Electric Machinery Co., Ltd.",
+    "industry" : "Industrial Machine",
+    "phone" : "81-92-943-7181",
+    "weburl" : "https://www.seibudenki.com/",
+    "imgurl" : "images/lg_seibu.png"
+    },
+    {
+    "name" : "Seibu Giken Co.Ltd.",
+    "industry" : "Air Conditioning Equipment",
+    "phone" : "81-92-942-3511",
+    "weburl" : "https://seibu-giken.co.jp/english",
+    "imgurl" : "images/seibugiken.png"
+    },
+    {
+    "name" : "SEIKO ELECTRIC CO.,LTD.",
+    "industry" : "Electric Technology",
+    "phone" : "81-92-942-3511",
+    "weburl" : "https://www.seiko-denki.co.jp/en/",
+    "imgurl" : "images/seiko.png"
+    },
+    {
+    "name" : "PIETRO Co., Ltd.",
+    "industry" : "Food and Restraunt",
+    "phone" : "81-120-769-300",
+    "weburl" : "https://www.pietro-japan.com/",
+    "imgurl" : "images/pietro.png"
+    },
+    {
+    "name" : "Masuda Kiribakoten",
+    "industry" : "Paulownia products",
+    "phone" : "81-92-942-3061",
+    "weburl" : "http://www.kiribako.jp/special-en.html",
+    "imgurl" : "images/masudakiribako.png"
+    },
+    {
+    "name" : " Nibishi Soy Sauce Co.,Ltd.",
+    "industry" : "Food and beverage",
+    "phone" : "81-120-797-888",
+    "weburl" : "https://www.nibishi.co.jp/",
+    "imgurl" : "images/nibishi.png"
+    },
+    {
+    "name" : "Aoyagi Soy Sauce",
+    "industry" : "Food and beverage",
+    "phone" : "81-92-942-2315",
+    "weburl" : "https://aoyagi.tv/index.html",
+    "imgurl" : "images/aoyagishoyu.png"
+    }
+    ],
+
+    "population": [
+        {
+                "total" : "59616",
+                "household" : "26359",
+                "Japanese": "58813",
+                "JapaneseHouseold" : "25718",
+                "foreignNationality" : "896",
+                "foreignHousehold" : "611"
+        },
+        {
+            "transition" : [
+                {
+                    "year" : "2000",
+                    "people" : "55,476",
+                    "household" : "18,573"
+                },
+                {   "year" : "2010",
+                    "people" : "57,920",
+                    "household" : "21,517"
+                 },
+                {   "year" : "2020",
+                    "people" : "59,248",
+                    "household" : "25,154"
+                }
+                ]
+        }       
+    ]
+    }
+    
