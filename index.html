@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
-<html lang="eng-us">
+<html lang="en-us">
     <head>
         <meta charset = "utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Mai Manago">
         <meta name="description" content="Chamber of Commerce Koga Website Home">
-        <link rel="shortcuticon" href="images/cckoga.ico">
+        <link rel="shortcuticon" href="cckoga.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
@@ -37,19 +37,24 @@
         </nav>
     </header>
     <main>
+        <div>
             <picture>
-                <source srcset="" media="(min-width:800px)">
-                <source srcset="" media="(min-width:600px)">
-                    <source srcset="" media="(min-width:400px)">
-                   
+                <source srcset="images/hero.1200.jpg" media="(min-width:800px)">
+                <source srcset="images/hero.800.jpg" media="(min-width:600px)">
+                    <source srcset="images/hero.600.jpg" media="(min-width:400px)">
+                        <img src="images/hero.400.jpg" alt="a empty meeting room">
                     </picture>
 
-            <div class="motto">
-                <h2>Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quaerat, nesciunt laborum atque cum, corrupti dignissimos, ipsa sint architecto facilis quod similique! Placeat, consequatur! Nihil dicta asperiores rem ducimus nobis!</p>
+            <div class="goal">
+                <div>
+                <h1>Build an Innovation Culture</h1>
+                <p>We believe small and simple things can bring great things to pass.</p>
             </div>
+        </div>
+        </div>
+        
             <div class="weathercast">
-                
+            
             <div class="current">
                 <div class="overlay">
                 <div class ="weathericon" id="icon"></div>
@@ -66,15 +71,16 @@
             <p class="reference">Presented by <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></p>
 
             <div class="upcoming">
-            <h1 class="center">What's on</h1>
-                <a href="city.html" class="cta">View All</a>
+            <h1 class="center">Upcoming Events</h1>
+            <div class="events"></div>
+                <div class="viewall"><a href="city.html" class="cta2">See More</a></div>
         </div>
-
+        <div class="cckoga">
             <h1>Access</h1>
             <div class="access">
             <div>
             <picture>
-                <img src="images/building.jpg" alt="">
+                <img src="images/building.jpg" alt="building">
             </picture>
           
            <div class="address">
@@ -85,8 +91,9 @@
                 A 3-min. Walk from JR Koga Station, Kagoshima Main Line
             </p>
         </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.03144908899!2d130.46199428145343!3d33.73400289109762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35418804f9cb4fdf%3A0xde8d79eb2cc4407a!2sTenjin%2C%20Koga%2C%20Fukuoka%20811-3101!5e0!3m2!1sen!2sjp!4v1626075889578!5m2!1sen!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.03144908899!2d130.46199428145343!3d33.73400289109762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35418804f9cb4fdf%3A0xde8d79eb2cc4407a!2sTenjin%2C%20Koga%2C%20Fukuoka%20811-3101!5e0!3m2!1sen!2sjp!4v1626075889578!5m2!1sen!2sjp" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
+    </div>
         <div class="bannerads">
             <a href="https://www.gmec.co.jp/en/"><img src="images/gmec.png" alt="Global Materials Engineering Co.,Ltd. logo"></a>
             <a href="https://seibu-giken.co.jp/english"><img src="images/seibugiken.png" alt="seibugiken logo"></a>
@@ -127,8 +134,10 @@
         <p> <span id="update"></span></p>
     </div>
     </footer>
+    
     <script defer src="js/weather.js"></script>
     <script defer src="js/script.js"></script>
+    <script defer src="js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({
         google: {families: [ 'Mulish', 'Sarabun', 'Poppins']}

@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
-<html lang="eng-us">
+<html lang="en-us">
     <head>
         <meta charset = "utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Mai Manago">
         <meta name="description" content="Chamber of Commerce Koga City Information">
-        <link rel="shortcuticon" href="images/cckoga.ico">
+        <link rel="shortcuticon" href="cckoga.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
@@ -44,22 +44,25 @@
                     <source srcset="images/hamabo.600.jpeg" media ="(min-width:400px)">
                 <img src = "images/hamabo.400.jpeg" alt = "Japanese hibiscus Hamabo"> 
         </picture>
+        <p class="reference">Japanese Hibiscus "Hamabo" at Kazurugahama Park</p>
         <div class="overlay2">
             <h1>Koga City, Fukuoka</h1>
 <p>
-    Koga City is located in the northwest near Fukuoka city between rich mountains and sea. 
+    Koga city is located in the northwest near Fukuoka city between rich mountains and sea. 
     The town has developed as a transportation hub since ancient times. 
     Many different kinds of factories transport the products to the world from the city.
     Here is the place to begin exploring the world.</p>
         </div>
-        <div class="population">
+        
         <h1>Population Transition</h1>
+        <div class="population">
             <div class="graph">
             <div class="y">
                 <span>50,000</span>
                 <span>55,000</span>
                 <span>60,000</span>
             </div>
+            <div class="statics">
             <div class="statics1">
                 <div class="people1">
                     <p class="center"> 55,476</p>
@@ -75,12 +78,17 @@
                     <p class="center">59,248</p>
                 </div>
             </div>
+            </div>
         </div>
             <div class="x">
+                <div class="scale">
                 <span>year</span>
+            </div>
+            <div class="timeline">
                 <span>2000</span>
                 <span>2010</span>
                 <span>2020</span>
+            </div>
             </div>
         </div>
         <div class="demographics">
@@ -106,9 +114,18 @@
                     <td>26359</td>
                 </tr>
             </table>
+        
+        <div class="analysis">
+            <h2>Multicultural Coexistence Community Development</h2>
+            <p>
+                The population of Koga city is growing in the past 20 years.
+                Moreover, the number of emigrants of foreign nationalities is also growing in recent years.
+                 Thus, community development for multicultural coexistence is our priority. </p>
         </div>
     </div>
-        <h1>Upcoming Events</h1>
+</div>
+        <h1>What's on</h1>
+        <div class="eventinfo"></div>
     </div>
     </main>
     <footer>
@@ -137,6 +154,7 @@
         <p> <span id="update"></span></p>
     </div>
     </footer>
+    <script defer src="js/city.js"></script>
     <script defer src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({

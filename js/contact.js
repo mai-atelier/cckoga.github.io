@@ -2,7 +2,7 @@ const requestURL = "cckoga.json"
 fetch(requestURL)
 .then ((response)=>response.json())
 .then ((jsObject)=>{
-console.log(jsObject);
+//console.log(jsObject);
 
 const directory = jsObject['directory'];
 for (let i = 0; i<directory.length; i++){
@@ -15,8 +15,13 @@ let imgurl = directory[i].imgurl;
 img.setAttribute('src', imgurl);
 img.setAttribute('alt',`${directory[i].name}logo`);
 img.style.display = 'block';
-imgdiv.appendChild(img);
 
+const link = directory[i].webmgurl;
+const a = document.createElement('a');
+a.setAttribute('href', link);
+
+a.appendChild(img);
+imgdiv.appendChild(a);
 let item = document.createElement('div');
 item.className = 'logo2';
 item.appendChild(imgdiv);

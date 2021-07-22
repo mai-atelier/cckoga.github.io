@@ -84,6 +84,41 @@
                 }
                 ]
         }       
-    ]
+    ],
+
+    "events" : [
+       {
+            "name" : "Human Rights Seminar",
+            "category" : "Seminar",
+            "date" : "August 7",
+            "time" : "13:00-",
+            "place" : "Community Center Koga Hall",
+            "imgurl" : "images/seminar.jpeg"
+            },
+            {
+                "name" : "Organic Marche Hitomiichi",
+                "category" : "Market",
+                "date" : "August 8",
+                "time" : "9:00 - 14:00",
+                "place" : "Ikoi Square",
+                "imgurl" : "images/organic.jpg"
+            },
+        {   
+            "name" : "Startup seminar for women entrepreneur",
+            "category" : "Seminar",
+             "date" : "August 28",
+            "time" : "10:00 - 12:00",
+            "place" : "Community Center Koga",
+            "imgurl" : "images/cherryblossum.jpg"
+            },
+        {   
+            "name" : "Koga Hojoya",
+            "category" : "Festival",
+            "date" : "September 28,29",
+            "time" : "18:00-",
+            "place" : "Koga Shrine",
+            "imgurl" : "images/festival.jpg"
+            }
+        ]
     }
     

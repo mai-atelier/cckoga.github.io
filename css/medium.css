@@ -37,6 +37,18 @@
         margin: .38em;
     }
 
+.goal{
+        position: absolute;
+        top: 25%;
+        background: rgba(255, 255, 255, 0.86);
+        height: 80px;
+        padding: 1em;
+    }
+
+    .goal p {
+        margin: 0;
+    }
+
 .weathercast {
     display: grid;
     grid-template-columns: 30% 1fr;
@@ -118,6 +130,70 @@
         width: 80px;
     }
 
+    .upcoming {
+        margin: 3em 0;
+        padding: 1em 2em;
+    }
+
+    .events h3  {
+        font-size: 1em;
+    }
+
+    .eventitem img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .eventitem {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;   
+        grid-gap: 3em;     
+    }
+
+    .eventitem:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+.overlay2 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        background: rgba(255, 255, 255, 0.8);
+        max-width: 300px;
+        padding: 2em;   
+    }
+
+    .demographics {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-gap: 3em;
+        margin: 3em 2%;
+    }
+
+    .people1 {
+        background: #ECF6FD;
+        width: 100px; 
+        height: 130px;
+    }
+
+    .people2 {
+        background:  #ECF6FD;
+        width: 100px; 
+        height: 170px;
+    }
+
+    .people3 {
+        background: #FFEDD6;
+        width: 100px; 
+        height: 200px;
+    }
+
+    .analysis p {
+    font-size: 1em;
+    line-height: 1.6;
+    }
 
 .about {
         display: flex;
@@ -128,7 +204,11 @@
     .access {
         display: flex;
         grid-gap: 1.75em;
-        flex-wrap: nowwrap;
+        margin: 0 2em;
+    }
+
+    iframe {
+        max-width: 100%;
     }
 
     .bannerads img{
@@ -143,6 +223,29 @@
     .board {
         display:flex;
         justify-content: space-between;
+    }
+
+    .eventitem2 {
+        display :flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2em;
+        border: 1px solid #f2eeea;
+    }
+
+    .content {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2em;
+    }
+
+    .overview {
+        display: flex;
+        flex-direction: column;
+       
     }
 
 .view {

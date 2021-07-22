@@ -4,6 +4,21 @@
         max-width: 960px;
     }
 
+    .goal{
+        top: 40%;
+        height: 120px;
+    }
+
+    .events {
+        display: flex;
+        grid-gap: 1em;
+        padding: 0 2%;
+    }
+
+    .eventitem {
+        display:block;
+    }
+
     .price{
         font-size: .8em;
     }
